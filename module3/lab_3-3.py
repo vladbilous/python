@@ -15,4 +15,15 @@ print(float_random)
 # find maximum element of int_seq variable and store it in variable int_seq_max
 int_seq_max = max(int_seq)
 
+# perform a floor division between int_seq_max and float_randomsave it to variable floor_div_result
+floor_div_result = int_seq_max // float_random
+
+print(floor_div_result)
+
+floor_div_result = int(floor_div_result)
+
+# find factorial of floor_div_result
+factorialMath = math.factorial(floor_div_result)
+print(factorialMath)
+
 
