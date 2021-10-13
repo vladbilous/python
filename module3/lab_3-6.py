@@ -21,7 +21,9 @@ dictCapitals['GE'] = 'Berlin'
 for key, country in dictCountries.items():
     sentenceFormat = "Domain for {} is {}.".format(key, country)
     print(sentenceFormat)
+
 # print sentence "The capital of COUNTRY is CAPITAL" for each record in capitals where COUNTRY and CAPITAL have to be replaced with .format()
+
 # Merge sentences above together with one cycle
 # Add to each value of countries another two domains: COM and GOV, as they can be used too. So value will became a list
 # Answer on the questions how embedded data structures works, i.e. list as a value of dictionary.
